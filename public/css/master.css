@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pointer {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* <!-- CONTAINER --> */
+#container {
+  height: 100vh;
+  width: 100vw;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+}
+
+.flexBoxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* <!-- TOP BOX --> */
+#topBox {
+  height: 35vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  color: #95949C;
+}
+
+/* <!-- BOTTOM BOX --> */
+.bottomBox {
+  height: 65vh;
+  width: 100vw;
+}
+
+/* <!-- TOKEN BOX --> */
+.tokenBox {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 40vh;
+  background-color: #EB4575;
+  border-radius: 0.6em;
+  -webkit-box-shadow: 8px 13px 47px 4px rgba(221,150,179,1);
+  -moz-box-shadow: 8px 13px 47px 4px rgba(221,150,179,1);
+  box-shadow: 8px 13px 47px 4px rgba(221,150,179,1);
+}
+
+.crashCoinText {
+  position: absolute;
+  top: 3.2em;
+  margin: auto;
+}
+
+.tokenBox:hover {
+  background-color: #95949C;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#incrementer p {
+  font-size: 8em;
+}
